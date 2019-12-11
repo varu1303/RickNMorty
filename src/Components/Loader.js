@@ -1,11 +1,7 @@
 import React from 'react';
 
 const Loader = () => {
-    return (<div style={{
-        width: '100vw',
-        height: '100vh',
-        display: 'flex'
-    }}>
+    return (<div className="loader-page">
         <div id="loading"></div>
     </div>)
 }

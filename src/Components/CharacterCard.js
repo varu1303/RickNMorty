@@ -21,6 +21,12 @@ export default class CharacterCard extends React.Component {
                 </div>
                 <div className="content">
                     <p style={{textAlign: 'left'}}>
+                        Status
+                        <span style={{float: 'right'}}>
+                        {this.props.character.status}
+                        </span>
+                    </p>
+                    <p style={{textAlign: 'left'}}>
                         Species
                         <span style={{float: 'right'}}>
                         {this.props.character.species}
